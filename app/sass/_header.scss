@@ -1,0 +1,44 @@
+.header{
+	background: linear-gradient(102.12deg, #1E2476 0%, #4024A3 40.98%, #7B15A4 124.89%);
+}
+.promo_block{
+	.text_part{
+		z-index: 2;
+	}
+	h1{
+		font-size: 48px;
+		line-height: 69px;
+		font-weight: bold;
+		margin-bottom: 0;
+		padding-bottom: 35px;
+	}
+	p{
+		font-size: 20px;
+		line-height: 34px;
+		margin-bottom: 0;
+		padding-bottom: 52px;
+	}
+	@include media-breakpoint-down(sm) {
+		h1{
+			font-size: 35px;
+			line-height: 37px;
+		}
+		p{
+			font-size: 18px;
+			line-height: 22px;
+		}
+	}
+}
+.anim_block{
+	position: relative;
+}
+.promo_block{
+	padding-bottom: 182px;
+	.gr{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform:translate(-60%,-40%);
+		// z-index: -1;
+	}
+}

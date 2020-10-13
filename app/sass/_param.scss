@@ -1,0 +1,169 @@
+@import
+	'_custom_bootstrap_vatiables.scss',
+	'../../bower_components/bootstrap/scss/_functions.scss',
+	'../../bower_components/bootstrap/scss/_variables.scss',
+	'../../bower_components/bootstrap/scss/_mixins.scss';
+body{
+	font:18px/1.61 'Inter', sans-serif;
+}
+.btn-warning{
+	color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container_center{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.fz_17{
+	font-size: 17px !important;
+}
+.pt_90{
+	padding-top: 90px;
+}
+.btn_lg{
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.btn_md{
+	font-size: 18px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.minw_200px{
+	min-width: 200px;
+}
+.how_start{
+	padding-top: 136px;
+	@include media-breakpoint-down(sm) {
+		padding-top: 50px;
+	}
+	h2{
+		font-size: 34px;
+		line-height: 34px;
+		font-weight: bold;
+		margin: 0;
+		padding-bottom: 44px;
+	}
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #008000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #00f;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #a31515;
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #2b91af;
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr {
+  color: #f00;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #00b0e8;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+// animated check
+
+.checked_circle{
+	width: 108px;
+	height: 108px;
+	// background: #24D6A0;
+	border-radius: 50%;
+	margin: 0 auto 30px;
+}
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+}
+.path.circle {
+  -webkit-animation: dash 0.9s ease-in-out;
+  animation: dash 0.9s ease-in-out;
+}
+.path.check {
+  stroke-dashoffset: -100;
+  -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+  animation: dash-check 0.9s 0.35s ease-in-out forwards;
+}
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+@keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
