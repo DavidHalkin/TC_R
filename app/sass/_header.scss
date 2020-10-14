@@ -1,5 +1,12 @@
 .header{
 	background: linear-gradient(102.12deg, #1E2476 0%, #4024A3 40.98%, #7B15A4 124.89%);
+	.logo{
+		img{
+			display: block;
+			height: 75px;
+			width: auto;
+		}
+	}
 }
 .promo_block{
 	.text_part{

@@ -103,6 +103,8 @@ footer a:hover { text-decoration: none; color: #EC804C; }
 
 .header { background: -webkit-linear-gradient(347.88deg, #1E2476 0%, #4024A3 40.98%, #7B15A4 124.89%); background: -o-linear-gradient(347.88deg, #1E2476 0%, #4024A3 40.98%, #7B15A4 124.89%); background: linear-gradient(102.12deg, #1E2476 0%, #4024A3 40.98%, #7B15A4 124.89%); }
 
+.header .logo img { display: block; height: 75px; width: auto; }
+
 .promo_block .text_part { z-index: 2; }
 
 .promo_block h1 { font-size: 48px; line-height: 69px; font-weight: bold; margin-bottom: 0; padding-bottom: 35px; }
