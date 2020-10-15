@@ -105,6 +105,8 @@ footer a:hover { text-decoration: none; color: #EC804C; }
 
 .header .logo img { display: block; height: 75px; width: auto; }
 
+.header_top { position: relative; z-index: 4; }
+
 .promo_block .text_part { z-index: 2; }
 
 .promo_block h1 { font-size: 48px; line-height: 69px; font-weight: bold; margin-bottom: 0; padding-bottom: 35px; }
@@ -116,9 +118,9 @@ footer a:hover { text-decoration: none; color: #EC804C; }
 
 .anim_block { position: relative; }
 
-.promo_block { padding-bottom: 182px; }
+.promo_block { padding-bottom: 182px; position: relative; z-index: 2; }
 
-.promo_block .gr { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-60%, -40%); -ms-transform: translate(-60%, -40%); transform: translate(-60%, -40%); }
+.promo_block .gr { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-60%, -40%); -ms-transform: translate(-60%, -40%); transform: translate(-60%, -40%); z-index: -1; }
 
 .wrapper { overflow: hidden; }
 
